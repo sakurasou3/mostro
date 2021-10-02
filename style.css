@@ -1,0 +1,44 @@
+html {
+    width: auto;
+    font-family: "Italianno","Farro","メイリオ";
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #7D75F5;
+}
+
+header {
+    background-color: #010744;
+    padding: 0 18px;
+    height: 80px;
+}
+
+header ul {
+    display: flex;
+    color: white;
+    font-size: 60px;
+    height: 80px;
+    align-items: center;
+    list-style: none;
+}
+
+header li:nth-child(2) {
+    margin: 0 54px 0 auto;
+}
+
+header li:last-child {
+    margin: 0 0 0 54px;
+}
+
+main {
+    height: 140px;
+    width: 100px;
+    background-color: red;
+    /* background-image: url("./images/main.png");
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
